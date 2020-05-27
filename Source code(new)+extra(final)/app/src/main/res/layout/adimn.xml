@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:gravity="fill_vertical"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/edittexta"
+            android:hint="Enter Admin Name"
+
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/buttona"
+            android:hint="ADD"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_margin="5dp"
+            android:background="@color/colorPrimary"
+
+            android:layout_height="wrap_content"></Button>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"></ListView>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:gravity="fill_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/buttonh"
+            android:hint="HOME(DHCP)"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+
+            android:layout_margin="5dp"
+            android:background="@color/colorPrimary"
+
+            android:layout_height="wrap_content"></Button>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/liste1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textDirection="firstStrongLtr"
+        android:layout_marginBottom="15dp"></ListView>
+    <ListView
+        android:id="@+id/liste2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"></ListView>
+
+</LinearLayout>
